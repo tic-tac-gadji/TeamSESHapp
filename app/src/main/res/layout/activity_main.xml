@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageInst"
+        android:layout_width="45dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="45dp"
+        android:onClick="openBrowser"
+        android:tag="http://instagram.com/teamsesh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/imageTwitt"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="45dp"
+        android:onClick="openBrowser"
+        android:tag="http://twitter.com/seshcompound"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/imageVK"
+        android:layout_width="43dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:onClick="openBrowser"
+        android:tag="http://vk.com/teamsesh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448"
+        app:srcCompat="@drawable/vk" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="45dp"
+        android:onClick="openBrowser"
+        android:tag="http://sesh.link/merchfromapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        app:srcCompat="@drawable/merch" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="openBrowser"
+        android:tag="http://sesh.link/weblinkfromapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/website" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="106dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="597dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seshscull" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
